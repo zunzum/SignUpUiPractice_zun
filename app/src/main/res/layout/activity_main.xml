@@ -38,6 +38,26 @@
         android:singleLine="true"
         android:imeOptions="actionGo"/>
 
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="남성"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="여성"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="비공개"/>
+    </RadioGroup>
+
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
